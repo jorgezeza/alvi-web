@@ -1,0 +1,136 @@
+/* Geral */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Fim Geral */
+
+
+/* logo*/
+
+.logo img {
+    max-width: 100px;
+    margin-top: 15px;
+}
+
+
+/* Fim logo*/
+
+
+/* Menu */
+
+.navbar .navbar-nav {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    float: none !important;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    background-color: transparent;
+    border: 0px;
+}
+
+.navbar-collapse ul li a {
+    padding: 16px 25px;
+}
+
+.navbar-collapse ul li a:hover {
+    color: #B4425B !important;
+    border-bottom: 1px solid #B4425B;
+    transition: 0.5s !important;
+}
+
+.active {
+    color: #B4425B !important;
+    border-bottom: 1px solid #B4425B;
+    font-weight: bold;
+}
+
+
+/* Fim Menu*/
+
+
+/* chamada Principal */
+
+.chamadaPrincipal {
+    min-height: 200px;
+    padding: 15px 15px 15px 15px;
+    background: url(/assets/banner.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chamadaPrincipal a,
+.chamadaSite a {
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #595858;
+    border: 1px solid #fee258;
+    background-color: #fee258;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.chamadaPrincipal a:hover,
+.chamadaSite a:hover {
+    color: #B4425B;
+}
+
+.vejaMais a {
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #595858;
+    border: 1px solid #fee258;
+    background-color: #fee258;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+vejaMais a:hover {
+    color: #B4425B;
+}
+
+
+/* fim Chamada Principal */
+
+
+/* Contador*/
+
+.contador {
+    margin-top: 55px;
+    min-height: 200px;
+    padding: 50px;
+    background-color: #F6F6F6;
+    color: #595858;
+}
+
+
+/* Fim Contador*/
+
+
+/* Rodape */
+
+.rodape {
+    min-height: 300px;
+    background-color: #fee258;
+}
+
+.rodape form input {
+    max-width: 400px;
+    
+}
+
+
+/* Fim Rodape */
